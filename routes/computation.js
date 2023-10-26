@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
     }
     let r=Math.cos(x);
     let t=Math.asin(x);
-    let n=Math.asinhsinh(x);
+    let n=Math.asinh(x);
     
   res.render('computation', { x:x,cos:r, asin:t, asinh:n});
 });
